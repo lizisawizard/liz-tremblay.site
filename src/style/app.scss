@@ -1,3 +1,48 @@
+@import './utlities/_variables';
+@import './components/stickyNav.scss';
+@import './components/content.scss';
+
 body {
+    color: $text;
+    font-family: open-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal;
     background-image: url('../assets/background.svg');
+}
+
+.App {
+    display: flex;
+}
+
+h1 {
+    font-family: filicudi-solid,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 72px;
+    margin: 0;
+}
+
+h2 {
+    font-family: filicudi-solid,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+}
+
+p {
+    font-family: 'Open Sans Light';
+}
+
+a {
+    text-decoration: none;
+    color: $hyperlink;
+}
+
+.icons {
+    width: 40%;
+    margin: 0px 4px;
+    &:hover {
+        fill: $hyperlink;
+        cursor: pointer;
+    }
 }
