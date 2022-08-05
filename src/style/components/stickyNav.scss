@@ -1,0 +1,55 @@
+.stickyNav {
+    height: 100%;
+    width: 40%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: sticky;
+    background-color: $background-1;
+    box-shadow: 4px 3px 6px $background-2;
+
+    &--content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 6em;
+    }
+
+    &--name {
+        display: flex;
+
+        &-L {
+            color: $brand-1;
+        }
+        &-I {
+            color: $brand-2;
+        }
+        &-Z {
+            color: $brand-3;
+        }
+    }
+
+    &--icons {
+        padding: 3em 0em;
+    }
+
+    &--tab {
+        cursor: pointer;
+        &.edu:hover {
+            color: $brand-1;
+        }
+        &.projects:hover {
+            color: $brand-2;
+        }
+        &.roles:hover {
+            color: $brand-3;
+        }
+    }
+}
+
+.vertical-line {
+    width: 100%;
+    height: 1px;
+    background-color: $text;
+}
