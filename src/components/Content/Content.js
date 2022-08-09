@@ -162,7 +162,7 @@ const Content = () => {
                             intermediate data source. Every week, my team would refine and manage the data load that 
                             would push large amounts of grocery data up to our commercial platform Stratum. My time 
                             on this rotation was spent accelerating processing time by enhancing old scripts into faster 
-                            <strong className='content--roles-bold'>Python</strong> and <strong className='content--roles-bold'>bash</strong> 
+                            <strong className='content--roles-bold'> Python </strong> and <strong className='content--roles-bold'>bash</strong> 
                             jobs saving about 20 minutes a week. I coded and integrated automation for a new, more efficient 
                             QA process into 84.51 Stratum’s weekly data load process. Before I implemented fixes, the job was 
                             difficult to parse and debug and took the team a whole day to figure out since the entire process 
@@ -182,8 +182,8 @@ const Content = () => {
                             by playing around in <strong className='content--roles-bold'>Jupyter Notebooks </strong>. 
                             My team, Shake Your Foundations!, introduced me to <strong className='content--roles-bold'>Agile </strong>, 
                             specifically scrum, and I learned about the ceremonies and technology associated like stand-up, retro, 
-                            <strong className='content--roles-bold'>Jira </strong>, and 
-                            <strong className='content--roles-bold'>Confluence</strong>. At the end of my co-op, I made a major 
+                            <strong className='content--roles-bold'> Jira</strong>, and 
+                            <strong className='content--roles-bold'> Confluence</strong>. At the end of my co-op, I made a major 
                             contribution working on <strong className='content--roles-bold'>SPC (statistical process control) checks </strong> 
                             for the forecast my team was working on, PULSE. I used <strong className='content--roles-bold'>Python </strong> 
                             and <strong className='content--roles-bold'>Spark </strong> to check thousands of records of incoming data 
