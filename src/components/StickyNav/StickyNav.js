@@ -5,7 +5,13 @@ import Github from '../../assets/icons/Github.js';
 
 const StickyNav = () => {
 
-    // const 
+    const scrollToSection = (scrollValue) => {
+        window.scrollTo({
+            top: scrollValue,
+            left: scrollValue,
+            behavior: 'smooth'
+          });
+    }
 
     return (
         <div className='stickyNav'>
@@ -27,9 +33,9 @@ const StickyNav = () => {
                     <a href='https://www.instagram.com/lizisawizard/'><span className='icons'><Instagram/></span></a>
                 </div>
                 <div>
-                    <h2 className='stickyNav--tab edu'>EDU</h2>
-                    <h2 className='stickyNav--tab projects'>PROJECTS</h2>
-                    <h2 className='stickyNav--tab roles'>ROLES</h2>
+                    <h2 className='stickyNav--tab edu' onClick={() => scrollToSection(0)}>EDU</h2>
+                    <h2 className='stickyNav--tab projects' onClick={() => scrollToSection(615)}>PROJECTS</h2>
+                    <h2 className='stickyNav--tab roles' onClick={() => scrollToSection(1967)}>ROLES</h2>
                 </div>
                 <span className='stickyNav--resume'><p style={{ fontSize: '24px' }}>Download my resume <a href='https://drive.google.com/file/d/1xVBYRMqFdERNyitzriM7u5FtuAJIZ7u9/preview' download>here</a>.</p></span>
             </div>
