@@ -1,4 +1,4 @@
-<h1 align="center"<Welcome to my portfolio! :3 </h1>
+<h1 align="center">Welcome to my portfolio! :3</h1>
 <p align="center"><i>My name is Liz! Have fun exploring! 💕</i></p>
 
 ### 💻 The site 
