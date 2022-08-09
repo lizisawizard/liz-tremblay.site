@@ -2,9 +2,83 @@
     position: relative;
     width: 100%;
     margin: 0 50px;
+
+    &--section {
+        padding-top: 54px;
+    }
+
     &--edu {
+        display: flex;
         &-title {
             color: $brand-1;
         }
+        &-primary {
+            flex: .5;
+        }
+        &-secondary {
+            flex: .5;
+        }
+        &-description {
+            font-size: 20px;
+            margin: 20px 0;
+        }
+        &-description-bold {
+            font-weight: '700';
+            font-family: 'Open Sans';
+        }
+    }
+
+    &--project {
+        margin: 35px 0;
+
+        &-primary {
+            flex: .4;
+        }
+        &-description {
+            flex: .6;
+        }
+        &-header {
+            color: $brand-2;
+            font-weight: 600;
+        }
+        &-text {
+            display: flex;
+        }
+        &-images {
+            display: flex;
+            width: 100%;
+        }
+    }
+
+    &--roles {
+        &-role {
+            display: flex;
+            margin: 35px 0;
+        }
+        &-title {
+            color: $brand-3;
+        }
+        &-primary {
+            flex: .5;
+        }
+        &-secondary {
+            flex: .5;
+        }
+        &-skills {
+            margin-top: 8px;
+        }
+        &-bold {
+            font-weight: '700';
+            font-family: 'Open Sans';
+        }
+    }
+}
+
+.icons-row {
+    padding: 22px 0;
+
+    svg {
+        width: 32px;
+        height: auto;
     }
 }

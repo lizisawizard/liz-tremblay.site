@@ -1,7 +1,7 @@
 import '../../style/app.scss';
 import fuppy from '../../assets/fuppy-uwu.svg';
-import Instagram from '../../assets/Instagram.js';
-import Github from '../../assets/Github.js';
+import Instagram from '../../assets/icons/Instagram.js';
+import Github from '../../assets/icons/Github.js';
 
 const StickyNav = () => {
 
@@ -12,14 +12,14 @@ const StickyNav = () => {
             <div className='stickyNav--content'>
                 <img src={fuppy} alt='fuppy uwu'/>
                 <div className='stickyNav--title'>
-                    <div className='stickyNav--title-secondary'>
-                        <h3>Designer, developer, and champion of</h3>
+                    <div>
+                        <h3 className='stickyNav--title-secondary'>Designer, developer, and champion of</h3>
                         <div className='vertical-line'/>
                         <span className='stickyNav--name'>
                             <h1 className='stickyNav--name-L'>L</h1><h1 className='stickyNav--name-I'>I</h1><h1 className='stickyNav--name-Z'>Z</h1><h1>TREMBLAY</h1>
                         </span>
                         <div className='vertical-line'/>
-                        <h3 style={{ fontFamily: 'Open Sans Light', fontStyle: 'italic'}}>light mode ✨</h3>
+                        <h3 className='stickyNav--title-secondary' style={{ fontStyle: 'italic' }}>light mode ✨</h3>
                     </div>
                 </div>
                 <div className='stickyNav--icons'>
@@ -31,7 +31,7 @@ const StickyNav = () => {
                     <h2 className='stickyNav--tab projects'>PROJECTS</h2>
                     <h2 className='stickyNav--tab roles'>ROLES</h2>
                 </div>
-                <p style={{ fontSize: '24px' }}>Download my resume <a href='https://drive.google.com/file/d/1xVBYRMqFdERNyitzriM7u5FtuAJIZ7u9/preview' download>here</a>.</p>
+                <span className='stickyNav--resume'><p style={{ fontSize: '24px' }}>Download my resume <a href='https://drive.google.com/file/d/1xVBYRMqFdERNyitzriM7u5FtuAJIZ7u9/preview' download>here</a>.</p></span>
             </div>
         </div>
     );
