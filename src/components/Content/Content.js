@@ -31,7 +31,6 @@ const Content = () => {
                         <p className='content--edu-description'><strong className='content--edu-description-bold'>Honoraries/Awards: </strong>Darwin T. Turner Scholar,  National Co-op Ambassador Scholar, Dean’s List, Mortar Board</p>
                         <p className='content--edu-description'><strong className='content--edu-description-bold'>Expected Graduation: </strong>April 2023</p>
                         <p className='content--edu-description'><strong className='content--edu-description-bold'>Leadership: </strong>CEAS Ambassadors (President), Women in Technology (Co-President), ACM-W (Vice President), RevolutionUC (Branding Lead), ENED Peer Teaching Assistant, Darwin T. Turner Scholarship Program (Mentor & Ambassador)</p>
-                        <Button>Download Transcript</Button>
                     </div>
                 </div>
             </div>
