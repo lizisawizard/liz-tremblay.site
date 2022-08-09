@@ -2,6 +2,7 @@ import '../../style/app.scss';
 import fuppy from '../../assets/fuppy-uwu.svg';
 import Instagram from '../../assets/icons/Instagram.js';
 import Github from '../../assets/icons/Github.js';
+import Button from '../Button/Button';
 
 const StickyNav = () => {
 
@@ -34,10 +35,12 @@ const StickyNav = () => {
                 </div>
                 <div>
                     <h2 className='stickyNav--tab edu' onClick={() => scrollToSection(0)}>EDU</h2>
-                    <h2 className='stickyNav--tab projects' onClick={() => scrollToSection(615)}>PROJECTS</h2>
-                    <h2 className='stickyNav--tab roles' onClick={() => scrollToSection(1967)}>ROLES</h2>
+                    <h2 className='stickyNav--tab projects' onClick={() => scrollToSection(560)}>PROJECTS</h2>
+                    <h2 className='stickyNav--tab roles' onClick={() => scrollToSection(2000)}>ROLES</h2>
                 </div>
-                <span className='stickyNav--resume'><p style={{ fontSize: '24px' }}>Download my resume <a href='https://drive.google.com/file/d/1xVBYRMqFdERNyitzriM7u5FtuAJIZ7u9/preview' download>here</a>.</p></span>
+                <span className='stickyNav--resume'>
+                    <a href='../../assets/Liz_Tremblay_Resume_2022.docx.zip' download><Button>Download Resume</Button></a>
+                </span>
             </div>
         </div>
     );
