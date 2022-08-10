@@ -6,7 +6,6 @@ import ceasAmbImg1 from '../../assets/images/ceas-amb-site-1.png';
 import ceasAmbImg2 from '../../assets/images/ceas-amb-site-2.png';
 import ceasAmbImg3 from '../../assets/images/ceas-amb-site-3.png';
 import politicBee1 from '../../assets/images/politicBee-1.png';
-import Button from '../Button/Button';
 import ImageDisplay from '../ImageDisplay/ImageDisplay';
 import Github from '../../assets/icons/Github.js';
 import AdobeXD from '../../assets/icons/AdobeXD.js';
