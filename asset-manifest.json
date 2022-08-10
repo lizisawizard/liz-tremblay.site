@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/liz-tremblay.site/static/css/main.1d3d489d.css",
-    "main.js": "/liz-tremblay.site/static/js/main.fba4d8ad.js",
-    "static/media/portfolio-site_3.png": "/liz-tremblay.site/static/media/portfolio-site_3.304e38a2ec0387ceb3f5.png",
-    "static/media/politicBee-1.png": "/liz-tremblay.site/static/media/politicBee-1.a7262cd33ba6a9f819b1.png",
-    "static/media/portfolio-site_1.png": "/liz-tremblay.site/static/media/portfolio-site_1.4cf15cfdc49c75da9f10.png",
-    "static/media/ceas-amb-site-2.png": "/liz-tremblay.site/static/media/ceas-amb-site-2.72065366e324487b9504.png",
-    "static/media/ceas-amb-site-1.png": "/liz-tremblay.site/static/media/ceas-amb-site-1.c563bcafcaa310613d8c.png",
-    "static/media/portfolio-site_2.png": "/liz-tremblay.site/static/media/portfolio-site_2.71d8158c87bed67f38d7.png",
-    "static/media/ceas-amb-site-3.png": "/liz-tremblay.site/static/media/ceas-amb-site-3.6c7280702793cc512295.png",
-    "index.html": "/liz-tremblay.site/index.html",
-    "static/media/background.svg": "/liz-tremblay.site/static/media/background.3f5de2fb648293c7fc1d.svg",
-    "static/media/fuppy-uwu.svg": "/liz-tremblay.site/static/media/fuppy-uwu.3da0c5d71bab529d20f0fff86785335e.svg",
-    "main.1d3d489d.css.map": "/liz-tremblay.site/static/css/main.1d3d489d.css.map",
-    "main.fba4d8ad.js.map": "/liz-tremblay.site/static/js/main.fba4d8ad.js.map"
+    "main.css": "/static/css/main.90bedd35.css",
+    "main.js": "/static/js/main.ba693512.js",
+    "static/media/portfolio-site_3.png": "/static/media/portfolio-site_3.304e38a2ec0387ceb3f5.png",
+    "static/media/politicBee-1.png": "/static/media/politicBee-1.a7262cd33ba6a9f819b1.png",
+    "static/media/portfolio-site_1.png": "/static/media/portfolio-site_1.4cf15cfdc49c75da9f10.png",
+    "static/media/ceas-amb-site-2.png": "/static/media/ceas-amb-site-2.72065366e324487b9504.png",
+    "static/media/ceas-amb-site-1.png": "/static/media/ceas-amb-site-1.c563bcafcaa310613d8c.png",
+    "static/media/portfolio-site_2.png": "/static/media/portfolio-site_2.71d8158c87bed67f38d7.png",
+    "static/media/ceas-amb-site-3.png": "/static/media/ceas-amb-site-3.6c7280702793cc512295.png",
+    "static/media/background.svg": "/static/media/background.3f5de2fb648293c7fc1d.svg",
+    "static/media/fuppy-uwu.svg": "/static/media/fuppy-uwu.3da0c5d71bab529d20f0fff86785335e.svg",
+    "index.html": "/index.html",
+    "main.90bedd35.css.map": "/static/css/main.90bedd35.css.map",
+    "main.ba693512.js.map": "/static/js/main.ba693512.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d3d489d.css",
-    "static/js/main.fba4d8ad.js"
+    "static/css/main.90bedd35.css",
+    "static/js/main.ba693512.js"
   ]
 }
