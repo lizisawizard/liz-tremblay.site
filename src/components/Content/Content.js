@@ -25,11 +25,11 @@ const Content = () => {
                         <p style={{ fontSize: '14px' }}>Class of 2023</p>
                     </div>
                     <div className='content--edu-secondary'>
-                        <p className='content--edu-description'><strong className='content--edu-description-bold'>GPA: </strong>3.396/4.0</p>
-                        <p className='content--edu-description'><strong className='content--edu-description-bold'>Expected Graduation: </strong>April 2023</p>
-                        <p className='content--edu-description'><strong className='content--edu-description-bold'>Honoraries/Awards: </strong>Darwin T. Turner Scholar,  National Co-op Ambassador Scholar, Dean’s List, Mortar Board</p>
-                        <p className='content--edu-description'><strong className='content--edu-description-bold'>Expected Graduation: </strong>April 2023</p>
-                        <p className='content--edu-description'><strong className='content--edu-description-bold'>Leadership: </strong>CEAS Ambassadors (President), Women in Technology (Co-President), ACM-W (Vice President), RevolutionUC (Branding Lead), ENED Peer Teaching Assistant, Darwin T. Turner Scholarship Program (Mentor & Ambassador)</p>
+                        <p className='content--edu-description'><span className='content--edu-description-bold'>GPA: </span>3.396/4.0</p>
+                        <p className='content--edu-description'><span className='content--edu-description-bold'>Expected Graduation: </span>April 2023</p>
+                        <p className='content--edu-description'><span className='content--edu-description-bold'>Honoraries/Awards: </span>Darwin T. Turner Scholar,  National Co-op Ambassador Scholar, Dean’s List, Mortar Board</p>
+                        <p className='content--edu-description'><span className='content--edu-description-bold'>Expected Graduation: </span>April 2023</p>
+                        <p className='content--edu-description'><span className='content--edu-description-bold'>Leadership: </span>CEAS Ambassadors (President), Women in Technology (Co-President), ACM-W (Vice President), RevolutionUC (Branding Lead), ENED Peer Teaching Assistant, Darwin T. Turner Scholarship Program (Mentor & Ambassador), Phi Sigma Rho</p>
                     </div>
                 </div>
             </div>
@@ -160,7 +160,7 @@ const Content = () => {
                             intermediate data source. Every week, my team would refine and manage the data load that 
                             would push large amounts of grocery data up to our commercial platform Stratum. My time 
                             on this rotation was spent accelerating processing time by enhancing old scripts into faster 
-                            <strong className='content--roles-bold'> Python </strong> and <strong className='content--roles-bold'>bash</strong> 
+                            <strong className='content--roles-bold'> Python </strong> and <strong className='content--roles-bold'>bash </strong> 
                             jobs saving about 20 minutes a week. I coded and integrated automation for a new, more efficient 
                             QA process into 84.51 Stratum’s weekly data load process. Before I implemented fixes, the job was 
                             difficult to parse and debug and took the team a whole day to figure out since the entire process 

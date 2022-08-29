@@ -9,9 +9,10 @@
     box-shadow: 4px 3px 6px $background-2;
 
     &--title-secondary {
-        font-family: 'Open Sans Light';
         font-size: 24px;
+        font-weight: 200;
         margin: 12px 0px;
+        font-style: italic;
     }
 
     &--content {
