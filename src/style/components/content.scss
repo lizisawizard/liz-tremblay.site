@@ -11,6 +11,7 @@
         display: flex;
         &-title {
             color: $brand-1;
+            font-weight: 600;
         }
         &-primary {
             flex: .5;
@@ -23,8 +24,7 @@
             margin: 20px 0;
         }
         &-description-bold {
-            font-weight: '700';
-            font-family: 'Open Sans';
+            font-weight: 700;
         }
     }
 
@@ -57,6 +57,7 @@
         }
         &-title {
             color: $brand-3;
+            font-weight: 600;
         }
         &-primary {
             flex: .5;
@@ -68,8 +69,9 @@
             margin-top: 8px;
         }
         &-bold {
-            font-weight: '700';
-            font-family: 'Open Sans';
+            font-family: open-sans,sans-serif;
+            font-weight: 700;
+            font-style: normal;
         }
     }
 }

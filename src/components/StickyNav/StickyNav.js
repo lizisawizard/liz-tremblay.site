@@ -26,7 +26,7 @@ const StickyNav = () => {
                             <h1 className='stickyNav--name-L'>L</h1><h1 className='stickyNav--name-I'>I</h1><h1 className='stickyNav--name-Z'>Z</h1><h1>TREMBLAY</h1>
                         </span>
                         <div className='vertical-line'/>
-                        <h3 className='stickyNav--title-secondary' style={{ fontStyle: 'italic' }}>light mode ✨</h3>
+                        <h3 className='stickyNav--title-secondary'>light mode ✨</h3>
                     </div>
                 </div>
                 <div className='stickyNav--icons'>
