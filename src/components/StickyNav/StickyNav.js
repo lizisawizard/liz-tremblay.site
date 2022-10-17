@@ -2,6 +2,7 @@ import '../../style/app.scss';
 import fuppy from '../../assets/fuppy-uwu.svg';
 import Instagram from '../../assets/icons/Instagram.js';
 import Github from '../../assets/icons/Github.js';
+import LinkedIn from '../../assets/icons/LinkedIn.js';
 import Button from '../Button/Button';
 
 const StickyNav = () => {
@@ -9,7 +10,7 @@ const StickyNav = () => {
     const scrollToSection = (scrollValue) => {
         window.scrollTo({
             top: scrollValue,
-            left: scrollValue,
+            left: 0,
             behavior: 'smooth'
           });
     }
@@ -32,6 +33,7 @@ const StickyNav = () => {
                 <div className='stickyNav--icons'>
                     <a href='https://github.com/lizisawizard'><span className='icons'><Github/></span></a>
                     <a href='https://www.instagram.com/lizisawizard/'><span className='icons'><Instagram/></span></a>
+                    <a href='https://www.linkedin.com/in/liz-tremblay5039/'><span className='icons'><LinkedIn/></span></a>
                 </div>
                 <div>
                     <h2 className='stickyNav--tab edu' onClick={() => scrollToSection(0)}>EDU</h2>
