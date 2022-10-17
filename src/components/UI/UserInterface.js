@@ -1,5 +1,4 @@
 import '../../style/app.scss';
-<<<<<<< HEAD
 import HandDrawnSketches from '../../assets/images/handdrawn-sketches.JPG';
 import InitialDigitals from '../../assets/images/initial digitals.png';
 import DigitalIdeation from '../../assets/images/digital-ideation-sketches.png';
@@ -11,15 +10,12 @@ import FinalUI3 from '../../assets/images/final-temp.png';
 import FinalUI4 from '../../assets/images/final-battery.png';
 import FinalUI5 from '../../assets/images/final-settings.png';
 import FinalUI6 from '../../assets/images/final-watch.png';
-=======
->>>>>>> 28fa3d029e310e57418378fe7c8b8660520cbced
 
 const UserInterface = () => {
     return (
         <div className='user-interface'>
             <h2>CS6067: User Interface I</h2>
             <h4>Liz Tremblay</h4>
-<<<<<<< HEAD
             <br/>
             <div className='project-description'>
                 <h3>Smart Sip</h3>
@@ -129,8 +125,6 @@ const UserInterface = () => {
             <iframe width="520" height="440" title='demo'
                 src='https://streamable.com/7opnp5' type="video/mp4">
             </iframe>
-=======
->>>>>>> 28fa3d029e310e57418378fe7c8b8660520cbced
         </div>
     );
 }
