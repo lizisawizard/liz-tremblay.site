@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.9b284da2.css",
-    "main.js": "/static/js/main.d2589b92.js",
+    "main.css": "/static/css/main.b001b95a.css",
+    "main.js": "/static/js/main.5efbfbe3.js",
+    "static/media/handdrawn-sketches.JPG": "/static/media/handdrawn-sketches.844c6bbee996d0a4938b.JPG",
     "static/media/portfolio-site_3.png": "/static/media/portfolio-site_3.304e38a2ec0387ceb3f5.png",
     "static/media/politicBee-1.png": "/static/media/politicBee-1.a7262cd33ba6a9f819b1.png",
     "static/media/portfolio-site_1.png": "/static/media/portfolio-site_1.4cf15cfdc49c75da9f10.png",
@@ -9,14 +10,24 @@
     "static/media/ceas-amb-site-1.png": "/static/media/ceas-amb-site-1.c563bcafcaa310613d8c.png",
     "static/media/portfolio-site_2.png": "/static/media/portfolio-site_2.71d8158c87bed67f38d7.png",
     "static/media/ceas-amb-site-3.png": "/static/media/ceas-amb-site-3.6c7280702793cc512295.png",
+    "static/media/final-homepage.png": "/static/media/final-homepage.285e234bb44e50bbdad1.png",
+    "static/media/final-goal.png": "/static/media/final-goal.43fd6af23651340dcc76.png",
+    "static/media/final designs.png": "/static/media/final designs.340ed1c0e3fae6f6058e.png",
+    "static/media/final-battery.png": "/static/media/final-battery.05c96cdaa1e36f98c647.png",
+    "static/media/digital-ideation-sketches.png": "/static/media/digital-ideation-sketches.d10ffb20b17fcb5409b6.png",
+    "static/media/final-temp.png": "/static/media/final-temp.c4cea5a9e2ab40b6e078.png",
+    "static/media/final-settings.png": "/static/media/final-settings.aa0be8da6145f43e13a5.png",
+    "static/media/final-watch.png": "/static/media/final-watch.2232cbd6730c87ce4153.png",
+    "static/media/initial digitals.png": "/static/media/initial digitals.4875b75669da6d6572e7.png",
+    "static/media/watch-sketches.png": "/static/media/watch-sketches.7018ccdd1d26291f3b05.png",
     "static/media/background.svg": "/static/media/background.3f5de2fb648293c7fc1d.svg",
     "static/media/fuppy-uwu.svg": "/static/media/fuppy-uwu.74ed02aaf22c59346b4d0c078e5c3c0a.svg",
     "index.html": "/index.html",
-    "main.9b284da2.css.map": "/static/css/main.9b284da2.css.map",
-    "main.d2589b92.js.map": "/static/js/main.d2589b92.js.map"
+    "main.b001b95a.css.map": "/static/css/main.b001b95a.css.map",
+    "main.5efbfbe3.js.map": "/static/js/main.5efbfbe3.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b284da2.css",
-    "static/js/main.d2589b92.js"
+    "static/css/main.b001b95a.css",
+    "static/js/main.5efbfbe3.js"
   ]
 }
