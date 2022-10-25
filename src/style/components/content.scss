@@ -8,7 +8,6 @@
     }
 
     &--edu {
-        display: flex;
         &-title {
             color: $brand-1;
             font-weight: 600;
@@ -18,10 +17,6 @@
         }
         &-secondary {
             flex: .5;
-        }
-        &-description {
-            font-size: 20px;
-            margin: 20px 0;
         }
         &-description-bold {
             font-weight: 700;
@@ -34,19 +29,15 @@
         &-primary {
             flex: .4;
         }
+        &-text {
+            display: flex;
+        }
         &-description {
             flex: .6;
         }
         &-header {
             color: $brand-2;
             font-weight: 600;
-        }
-        &-text {
-            display: flex;
-        }
-        &-images {
-            display: flex;
-            width: 100%;
         }
     }
 
@@ -82,5 +73,100 @@
     svg {
         width: 32px;
         height: auto;
+    }
+}
+
+// Standard Width
+@media only screen and (min-width: 1057px) and (max-width: 1800px) {
+    .content {
+        position: relative;
+        width: 100%;
+        margin: 0 50px;
+
+        &--edu {
+            display: flex;
+            &-primary {
+                margin-right: 12px;
+            }
+            &-description {
+                font-size: 20px;
+                margin: 20px 0;
+            }
+        }
+
+        &--project {
+            &-images {
+                display: flex;
+                width: 100%;
+            }
+        }
+    }
+}
+
+// Mobile or Large Screen
+@media only screen and (max-width: 1056px), (min-width: 1800px) {
+    .content {
+        position: relative;
+        width: auto;
+        margin: 0 50px;
+
+        &--edu {
+            display: flex;
+            &-primary {
+                margin-right: 12px;
+            }
+            &-description {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+        }
+
+        &--roles {
+            &-primary {
+                margin-right: 12px;
+            }
+        }
+
+        &--project {
+            &-primary {
+                margin-right: 12px;
+            }
+            &-images {
+                display: flex;
+            }
+        }
+    }
+}
+
+// Mobile only
+@media only screen and (max-width: 672px) {
+    .content {
+        &--edu {
+            display: block;
+            &-primary {
+                margin-bottom: 20px;
+            }
+        }
+
+        &--project {
+            &-text {
+                display: block;
+            }
+            &-images {
+                display: none;
+            }
+        }
+
+        &--roles {
+            &-role {
+                display: block;
+            }
+            &-primary {
+                margin-bottom: 12px;
+            }
+            &-images {
+                display: none;
+            }
+        }
     }
 }
