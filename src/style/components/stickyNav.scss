@@ -16,6 +16,7 @@
 
     &--name {
         display: flex;
+        justify-content: center;
 
         &-L {
             color: $brand-1;
@@ -30,6 +31,7 @@
 
     &--icons {
         padding: 3em 0em;
+        display: flex;
     }
 
     &--tab {
@@ -57,7 +59,7 @@
 }
 
 // Standard Width
-@media only screen and (min-width: 1057px), (max-width: 1800px) {
+@media only screen and (min-width: 1056px), (max-width: 1800px) {
     .stickyNav {
         height: 100%;
         width: auto;
@@ -82,5 +84,14 @@
         right: 0;
         position: relative;
         background-color: $background-1;
+    }
+}
+
+// Mobile only
+@media only screen and (max-width: 672px) {
+    .stickyNav {
+        &--title-secondary {
+            font-size: 18px;
+        }
     }
 }
