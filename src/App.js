@@ -1,13 +1,15 @@
 import './style/app.scss';
 
-import StickyNav from './components/StickyNav/StickyNav.js';
+import Navigation from './components/Navigation/Navigation.js';
+import Footer from './components/Footer/Footer.js';
 import { Outlet } from 'react-router-dom';
 
 const App = () => {
     return (
-        <div className='App'>
-            <StickyNav/>
+        <div className="page-layout">
+            <Navigation/>
             <Outlet/>
+            <Footer></Footer>
         </div>
     );
 } 

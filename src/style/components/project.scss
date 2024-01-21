@@ -1,0 +1,17 @@
+.project__image {
+    object-fit: cover;
+    clip-path: border-box;
+    width: 100%;
+}
+
+.project__image-empty {
+    background-color: $brand-4;
+    width: 100%;
+    min-height: 500px;
+}
+
+.project__icons svg {
+    &:hover {
+        fill: $brand-1;
+    }
+}

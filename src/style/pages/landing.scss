@@ -1,0 +1,50 @@
+.landing {
+  &__mandarin {
+    font-size: 48px;
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: 72px;
+
+    &-special {
+      color: $brand-3;
+      font-family: "Volkhov", sans-serif;
+      font-style: italic;
+      font-weight: 600;
+    }
+  }
+
+  &__description {
+    font-size: 24px;
+    max-width: 40%;
+  }
+
+  &__projects {
+    padding: 64px 0px;
+  }
+
+  &__projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 64px;
+  }
+}
+
+// Mobile only
+@media only screen and (max-width: 672px) {
+  .landing__mandarin {
+    font-size: 42px;
+    padding-top: 20%;
+  }
+
+  .landing {
+    &__description {
+      max-width: 80%;
+    }
+    &__projects-grid {
+      display: grid;
+      grid-template-columns: none;
+    }
+  }
+}
