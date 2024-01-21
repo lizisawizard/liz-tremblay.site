@@ -1,119 +1,106 @@
-@import './utlities/_variables';
-@import './components/stickyNav.scss';
-@import './components/content.scss';
-@import './components/button.scss';
-@import './components/imageDisplay.scss';
-@import './components/userInterface.scss';
+@import "./utlities/_variables";
+@import "./pages/style.scss";
+@import "./components/navigation";
+@import "./components/project";
 
-@font-face {
-    font-family: 'Open Sans';
-    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap'),
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Volkhov:ital@0;1&display=swap");
+
+html {
+  background-color: $background-1;
 }
 
 body {
-    color: $text;
-    font-family: open-sans,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    background-image: url('../assets/background.svg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-h1, h2 {
-    font-family: filicudi-solid, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-h1 {
-    font-size: 72px;
-    margin: 0;
-}
-
-h2 {
-    font-size: 36px;
-    margin: 0;
-}
-
-h3 {
-    font-family: open-sans, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 32px;
-    margin: 0;
-}
-
-h4 {
-    font-family: open-sans, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 24px;
-    margin: 0;
-}
-
-p {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 200;
-    margin: 0;
+  color: $text;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
 }
 
 a {
-    text-decoration: none;
-    color: $hyperlink;
+  text-decoration: none;
+  color: $brand-3;
 }
 
-.icons {
-    width: 40%;
-    margin: 0px 4px;
-    &:hover {
-        cursor: pointer;
-        svg {
-            fill: $hyperlink;
-        }
-        &.figma {
-            path {
-                stroke: $hyperlink;
-            }
-        }
-    }
-    &.figma {
-        svg {
-            width: 22px;
-        }
-    }
+h2 {
+  font-family: "Volkhov", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.page-layout {
+  margin: 0px 36px;
+}
+
+.goon {
+  clip-path: circle();
+  object-fit: cover;
+  border-radius: 1000px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.footer {
+  display: flex;
+  place-content: end;
+  fill: $fade;
+  color: $fade;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 15%;
+  }
+
+  &__socials a {
+    line-height: 1.5px;
+  }
+
+  // &__bar {
+  //   background-color: $text;
+  //   height: 24px;
+  //   width: 100%;
+  //   position: absolute;
+  //   left: 0;
+  // }
 }
 
 // Standard Width
 @media only screen and (min-width: 1056px), (max-width: 1800px) {
-    .App {
-        display: flex;
-    }
+  .App {
+    display: flex;
+  }
 }
 
 // Mobile or Large Screen
 @media only screen and (max-width: 1056px), (min-width: 1800px) {
-    .App {
-        display: flex;
-        flex-direction: column;
-    }
 }
 
 // Mobile only
 @media only screen and (max-width: 672px) {
-    h1 {
-        font-size: 36px;
+  .page-layout {
+    margin: 0px 24px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  .footer__bar {
+    height: 12px;
+  }
+
+  .landing__mandarin {
+    font-size: 42px;
+    padding-top: 20%;
+  }
+
+  .landing {
+    &__description {
+      max-width: 80%;
     }
-    
-    h2 {
-        font-size: 24px;
+    &__projects-grid {
+      display: grid;
+      grid-template-columns: none;
     }
-    
-    h3 {
-        font-size: 20px;
-    }
-    
-    h4 {
-        font-size: 18px;
-    }
+  }
 }

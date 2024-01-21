@@ -2,19 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './style/app.scss';
 import App from './App';
-import { HashRouter, Routes, Route } from 'react-router-dom';
-import Content from './components/Content/Content';
-import UserInterface from './components/UI/UserInterface';
+import Landing from './pages/Landing';
+import About from './pages/About';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <HashRouter basename={process.env.PUBLIC_URL} hashType='slash'>
+  <BrowserRouter>
     <Routes>
-        <Route path="/" element={<App />}> 
-          <Route path="/" element={<Content/>}/>
-          <Route exact path="/ui" element={<UserInterface/>}/>
+        <Route path="/" element={<App />}>
+          <Route path="/" element={<Landing />}/>
+          <Route path="/about" element={<About />}/>
         </Route>
     </Routes>
-  </HashRouter>
+  </BrowserRouter>
 );

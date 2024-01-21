@@ -1,0 +1,160 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr 3.5fr;
+  gap: 24px;
+  padding: 72px;
+
+  &__section {
+    padding-bottom: 32px;
+    margin-right: 96px;
+  }
+
+  &__intro {
+    display: flex;
+    gap: 48px;
+  }
+
+  &__intro p {
+    font-size: 24px;
+  }
+
+  &__intro-bio {
+    order: 2;
+  }
+
+  &__work-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px 48px;
+  }
+
+  &__experience-title {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  &__experience-date {
+    font-size: 16px;
+    font-style: italic;
+    margin: 8px 0px;
+  }
+
+  &__experience-description {
+    font-size: 16px;
+    margin: 8px 0px;
+  }
+
+  &__experience-institute {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 8px 0px 0px 0px;
+  }
+
+  &__edu-experience {
+    padding-bottom: 32px;
+  }
+
+  &__gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 48px;
+
+    p {
+      font-size: 20px;
+    }
+
+    &-img {
+      width: 100%;
+      height: 225px;
+      object-fit: cover;
+      clip-path: border-box;
+    }
+  }
+
+  &__coolThings {
+    display: grid;
+    grid-template-columns: 1fr 3.5fr;
+    gap: 24px;
+    padding: 24px 72px;
+
+    position: absolute;
+    margin: 0;
+    left: 0;
+    transform: translateY(550px);
+  }
+
+  &__outside {
+    display: grid;
+    grid-template-columns: 1fr 3.5fr;
+    gap: 24px;
+    padding: 24px 72px;
+
+    background: #e6e6e6;
+    position: absolute;
+    margin: 0;
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .about__coolThings,
+  .about__outside {
+    grid-template-columns: none;
+  }
+}
+
+// Mobile only
+// I increased the threshold because it looked weird otherwise
+@media only screen and (max-width: 900px) {
+  .about {
+    display: block;
+    padding: revert;
+
+    &__section {
+      padding: revert;
+      margin-right: revert;
+    }
+
+    &__goon {
+      padding: 24px 0px;
+    }
+
+    &__intro {
+      display: block;
+    }
+
+    &__intro p {
+      font-size: 24px;
+    }
+
+    &__intro-bio {
+      max-width: 100%;
+    }
+
+    &__work-grid {
+      display: block;
+      grid-template-columns: none;
+    }
+
+    &__experience {
+      padding-bottom: 32px;
+    }
+
+    &__outside,
+    &__coolThings {
+      padding: 16px 36px;
+      display: block;
+      position: relative;
+      transform: revert;
+    }
+
+    &__gallery {
+      display: block;
+
+      p {
+        font: inherit;
+      }
+    }
+  }
+}
