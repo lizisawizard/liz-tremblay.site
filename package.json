@@ -1,6 +1,6 @@
 {
   "name": "liz-tremblay.site",
-  "homepage": "https://lizisawizard.github.io/",
+  "homepage": "https://liz-tremblay.site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -42,6 +42,5 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }
