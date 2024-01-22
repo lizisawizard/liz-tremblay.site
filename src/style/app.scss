@@ -40,7 +40,7 @@ h2 {
 
 .footer {
   display: flex;
-  place-content: end;
+  justify-content: flex-end;
   fill: $fade;
   color: $fade;
 

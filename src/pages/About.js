@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Goon from "../assets/images/goon.png";
 import GoonPizza from "../assets/images/About/GoonPizza.png";
 import GoonMET from "../assets/images/About/GoonMET.png";
