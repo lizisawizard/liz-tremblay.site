@@ -11,14 +11,17 @@ const projectData = [
       "Web application aimed at uniting young Americans together on community efforts and local politics to bring about change that affects your day to day. Users can create ‘initiatives’ to easily gain exposure within the community, assemble and mobilize volunteers, and communicate with their audience. Our application was designed in Figma, our frontend built with React.js, backend built in Express.js, data hosted on MongoDB, and accounts secured through Google SSO.",
     links: [
       {
+        id: 0,
         icon: "github",
         href: "https://github.com/lizisawizard/Politic.ly/",
       },
       {
+        id: 1,
         icon: "website",
         href: "https://politicly.app",
       },
       {
+        id: 2,
         icon: "figma",
         href: "https://www.figma.com/file/2Y3q7n4LyJ6GE03pOQvDiz/Senior-Design?type=design&node-id=0%3A1&mode=design&t=BorCsmJXChvCcCFE-1"
       },
@@ -32,10 +35,12 @@ const projectData = [
       "Student government campaign site to share Taylor Morgan and Vu Pham’s values, team, supporters, social medias, and story. The site was designed in Figma, uses React.js as a front end framework, and is hosted on Netlify. I collaborated with Taylor and Vu on the design and was able to put the site together in about 2-3 weeks. ",
     links: [
       {
+        id: 0,
         icon: "github",
         href: "https://github.com/lizisawizard/MorganPham",
       },
       {
+        id: 1,
         icon: "website",
         href: "https://morganpham2023.com/",
       },
@@ -49,10 +54,12 @@ const projectData = [
       "Club website used to coordinate college tours, manage meeting and tour attendance, host resources, and maintain club roster so external parties to connect with ambassadors. The application currently uses Pug.js for frontend, Express.js for backend, and MySQL for our database. For nearly 3 years, I maintained the website fixing bugs and making small enhancements. In my final year, I led efforts to move to React.js for frontend. The transition to React is a work in progress.",
     links: [
       {
+        id: 0,
         icon: "github",
         href: "https://github.com/ceas-ambassadors/ceas-ambassadors-website",
       },
       {
+        id: 1,
         icon: "website",
         href: "https://ucceasambassadors.com/",
       },
@@ -76,7 +83,7 @@ const Landing = () => {
   };
 
   return (
-    <div>
+    <div className="landing">
       <div className="landing__intro">
         <p className="landing__mandarin">{getMando()}!</p>
         <h1 className="landing__title">
@@ -103,9 +110,9 @@ const Landing = () => {
               imagePath={p.imagePath}
               imageAltText={p.imageAltText}
               links={p.links}
+              key={p.title}
             />
           ))}
-          {projectData.map((j) => console.log(j.title))}
         </div>
       </div>
     </div>

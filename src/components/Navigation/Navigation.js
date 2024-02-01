@@ -1,5 +1,6 @@
 import "../../style/app.scss";
 import { NavLink } from "react-router-dom";
+import Resume from "../../assets/Liz_Tremblay_Resume_2022.docx.zip"
 
 const Navigation = () => {
   return (
@@ -26,17 +27,16 @@ const Navigation = () => {
           About
         </NavLink>
         <NavLink
-          to="/"
+        to="blog"
           className={(e) =>
             e.isActive
               ? "navigation__link-active"
               : "navigation__link-pending"
           }
-          style={{ textDecoration: "line-through" }}
         >
           Blog
         </NavLink>
-        <a className="navigation__link-pending" href='../../assets/Liz_Tremblay_Resume_2022.docx.zip' download>Resume</a>
+        <a className="navigation__link-pending" href={Resume} download>Resume</a>
       </div>
     </div>
   );

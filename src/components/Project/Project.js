@@ -33,7 +33,7 @@ const Project = ({
         {links.map((link) => {
           const path = icons[link.icon];
           return (
-            <a href={link.href}>
+            <a href={link.href} key={link.id}>
               <svg
                 width="32px"
                 height="32px"
