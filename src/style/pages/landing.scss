@@ -1,4 +1,6 @@
 .landing {
+  margin: 0px 32px;
+
   &__mandarin {
     font-size: 48px;
   }
@@ -33,6 +35,10 @@
 
 // Mobile only
 @media only screen and (max-width: 672px) {
+  .landing {
+    margin: revert;
+  }
+  
   .landing__mandarin {
     font-size: 42px;
     padding-top: 20%;
