@@ -15,7 +15,7 @@ const About = () => {
       role: "Software Engineer",
       date: "June 2023 - present",
       description:
-        "Returning to our design system team, Meridian, I mainly focused on composable experiences and component accessibility. Meridian primarily uses Svelte and Sveltekit to deliver our component library and documentation site and playwright for testing. Some of my largest contributions thus far include redesigning a more efficient and collaborative contribution process, integrating axe-core into our testing to detect accessibility violations, and adding enhancements our Angular Table component like a column-level loading state and drag and drop support.",
+        "I work full-time on our design system team, Meridian. Most days I repair bug fixes and implement enhancements to our components usually as requests from customers in Media. More fun work that I've led has included added accessibility checks to our Playwright tests, adding draggable rows to our Table component, and co-developing a new View Toggle component. I've also noodled on a revised contribution process for external teams to work with us to add desired in whatever capacity they can collaborate with us and have mentored an interna and a co-op for a semester. When I'm not working to improve Meridian, I'm helping with early career recruitment or organizing a lunch or event for the NY office as the co-office manager.",
     },
     {
       company: "IBM",

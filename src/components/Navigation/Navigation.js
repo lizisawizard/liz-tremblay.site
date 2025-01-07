@@ -1,6 +1,6 @@
 import "../../style/app.scss";
 import { NavLink } from "react-router-dom";
-import Resume from "../../assets/Liz_Tremblay_Resume_2022.docx.zip"
+import Resume from "../../assets/Liz-Tremblay-Resume-2024.zip"
 
 const Navigation = () => {
   return (
